@@ -4,19 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        
-        h1{
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
+    <title>css selector</title>
     
-    <h1 class="h3" id="h1">this is heading 1</h1>
-    <h2 style="color: blue;">Lorem ipsum dolor sit amet.</h2>
-    <p class="h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odio nesciunt expedita eveniet vel harum quo magni, a possimus dolore!</p>
+    <style>
+        /* element selector */
+        h1,h2,h3{
+            border:5px solid red;
+        }
+        /* id selector */
+        
+        #firstpara{
+            color:green;
+        }
+        /* class selector */
+        .bgblack{
+            background-color:black;
+        }
+        /* Grouping selector */
+
+        footer,span{
+            color:grey;
+
+            background-color:yellow;
+            
+        }
+        /* this */
+    
+        
+    </style>
+    </head>
+<body>
+    <h1> my name is chitranshi shrivastava</h1>
+    <h2 id="firstpara" class="redElement bgblack"> i pursuing b.voc telematics</h2>
+    <h3> this is a heading</h3>
+    <p> Lorem ipsum dolor sit amet consectetur  adipisicing elit. Ratione, harum suscipit sequi facere, porro voluptatum cum inventore reiciendis dignissimos atque nam. Nostrum repudiandae exercitationem sit aspernatur commodi, magnam libero. Ipsa.</p>
+    <p> this is a my book</p>
+    <span> this is span</span>
+    <footer> this is a footer</footer>
 </body>
 </html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psedo selector & more designing </title>
+    <style>
+        .container{
+            border:2px solid red;
+            background-color:blueviolet;
+            padding: auto;
+
+            margin: auto ;
+            width: 666px;
+            /* psedo selector */
+
+        }
+        a{
+            text-decoration:none;
+            color:black;
+        }
+    a:hover{
+        color: green;
+        background-color: yellow;
+    }
+    a:visited{
+        color: aqua;
+    }
+    a:active{
+background-color: blue;
+    }
+    
+    
+        .btn{
+            background-color:red;
+            padding:6px;
+            border:none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            
+            
+
+        }
+        .btn:hover{
+            color:blue;
+        
+            background-color: antiquewhite;
+            border:2px solid black;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+<!-- div container.1 -->
+    <div class="container" id="1">
+        <h3> this is my third heading</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odit provident, quaerat autem, eveniet fuga quia delectus laborum rem aliquam labore necessitatibus sapiente animi atque exercitationem eligendi incidunt mollitia quod!</p>
+        <a href=" http://amazon.com" class=" btn">read more</a>
+        <button class="btn"> contact us</button>
+
+    </div>
+    
+</body>
+</html>
